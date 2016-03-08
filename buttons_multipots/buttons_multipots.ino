@@ -1,16 +1,16 @@
 //VARIABLES////////////////////////////////
 ////Buttons
-int nb = 4;
-int b[] = {2, 3, 4, 5};
-boolean bg[] = {true, true, true, true};
-boolean btg[] = {true, true, true, true};
-int btamt[] = {10, 2, 2, 2};
-int btv[] = {0, 0, 0, 0};
+int nb = 8;
+int b[] = {2, 3, 4, 5,6,7,8,9};
+boolean bg[] = {true, true, true, true,true, true, true, true};
+boolean btg[] = {true, true, true, true,true, true, true, true};
+int btamt[] = {10, 2, 2, 2, 2, 2, 2,2};
+int btv[] = {0, 0, 0, 0,0, 0, 0, 0};
 ////Pots
-int np = 4;
-int p[] = {A0,A1,A2,A3};
-int pv[] = {0,0,0,0};
-int ppv[] = {0,0,0,0};
+int np = 5;
+int p[] = {A0,A1,A2,A3,A4};
+int pv[] = {0,0,0,0,0};
+int ppv[] = {0,0,0,0,0};
 //SETUP///////////////////////////////////
 void setup() {
   Serial.begin(9600);
